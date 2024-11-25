@@ -50,10 +50,7 @@
   font-style: normal;
 }
 
-.Movie-rate{
-  color: red;
-  font-style: italic;
-}
+
 
 .Movie-date::before{
   content: "Realese date: ";
@@ -62,8 +59,8 @@
   font-style: normal;
 }
 
-.Movie-date{
+.Movie-date , .Movie-rate{
   color: red;
-  font-style: italic;
+  font-weight: 500;
 }
 
