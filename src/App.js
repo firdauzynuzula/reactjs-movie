@@ -38,7 +38,7 @@ const search = async (q) => {
 
   return (
     <div className="App">
-      <header className="App-header px-5 overflow-hidden max-w-3/4 lg:min-h-screen flex flex-col items-center justify-center text-white bg-slate-800">
+      <header className="App-header p-5 overflow-hidden lg:min-h-screen flex flex-col items-center justify-center text-white bg-slate-800">
         <h1 className="text-center text-3xl lg:text-4xl m-5 font-semibold ">Movie search React Js</h1>
         <input
           placeholder="Cari film kesukaan anda"
